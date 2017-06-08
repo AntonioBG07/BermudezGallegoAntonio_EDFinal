@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BermudezGallegoAntonio_EDFinal
+namespace BermudezGallegoAntonio_EDFinal.interfaces
 {
-    class Program
+    interface IPesable
     {
-        static void Main(string[] args)
-        {
-        }
+        void Pesar(Double ps);
     }
 }
